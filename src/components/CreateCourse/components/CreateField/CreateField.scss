@@ -1,0 +1,19 @@
+.create-field {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__duration {
+    font-size: 1.2em;
+
+    &_bold {
+      font-weight: bold;
+    }
+  }
+
+  &__button {
+    align-self: center;
+    font-size: 1.2em;
+    padding: 5px 10px;
+  }
+}

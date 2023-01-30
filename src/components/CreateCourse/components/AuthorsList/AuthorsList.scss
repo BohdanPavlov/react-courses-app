@@ -1,0 +1,9 @@
+.authors {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &__empty {
+    text-align: center;
+  }
+}

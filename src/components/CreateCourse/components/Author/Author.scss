@@ -1,0 +1,16 @@
+.author {
+  display: flex;
+  justify-content: space-between;
+
+  &__name {
+    font-size: 1.2em;
+  }
+
+  &__btn {
+    padding: 3px 10px;
+
+    &_remove {
+      border: 2px solid red;
+    }
+  }
+}
